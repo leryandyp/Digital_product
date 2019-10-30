@@ -1,0 +1,97 @@
+:root{
+    /*------ Colores */
+    --green-color: #7ACC2D;
+    --black-color: #313337;
+    --white-color: white;
+    /*------ Tipografía */
+    --normal:12px;
+    /*------ Espaciado */
+    --space:10px;
+    --space-2:20px;
+  }
+
+.container{
+    max-width: 900px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+}
+.col-1{
+    width: 8.3333333333%;
+}
+.col-2{
+    width: 16.666666666%;
+}
+.col-3{
+    width: 24.999999999%;
+}
+.col-4{
+    width: 33.333333332%;
+}
+.col-5{
+    width: 41.666666665%;
+}
+.col-6{
+    width: 49.999999998%;
+}
+.col-7{
+    width: 58.333333331%;
+}
+.col-8{
+    width: 66.666666664%;
+}
+.col-9{
+    width: 74.999999997%;
+}
+.col-10{
+    width: 83.333333333%;
+}
+.col-11{
+    width: 91.666666663%;
+}
+.col-12{
+    width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+
+.row img {
+    max-width: 100%;
+}
+.centrado{
+    margin-top: 100px;
+    padding: 20px;
+}
+#gif{
+    background-color: #f3f3f3;
+}
+.main_button_product{
+    padding: var(--space-2);
+    background-color: var(--green-color);
+    width: 150px;
+    height: 150px;
+    border: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--white-color);
+    margin-left: 150px;
+ 
+}
+.main_button_product:hover{
+    background-color: #63a426;
+}
+
+@media (max-width: 900px){
+    .row{
+        display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        width: 100%;
+    }
+}
+
+/* container> row > column */
